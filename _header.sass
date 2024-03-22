@@ -3,9 +3,24 @@ header
     .imgbox
         width: 40px
     nav
+        display: block
         a
             font-size: 20px
             color: #8c8999
             margin-right: 30px
         .home-color
             color: #74bebc
+    .btn
+        display: none
+    @media screen and ( max-width: 991px )
+        nav
+            display: none
+        .btn
+            display: block
+            border-radius: 5px
+            border: 1px solid #f4f4f4f6
+            background-color: #f4f4f4f6
+            padding: 10px 15px
+            .icon
+                font-size: 15px
+    

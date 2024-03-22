@@ -20,6 +20,9 @@ header {
 header .imgbox {
   width: 40px;
 }
+header nav {
+  display: block;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -27,6 +30,24 @@ header nav a {
 }
 header nav .home-color {
   color: #74bebc;
+}
+header .btn {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  header nav {
+    display: none;
+  }
+  header .btn {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid rgba(244, 244, 244, 0.9647058824);
+    background-color: rgba(244, 244, 244, 0.9647058824);
+    padding: 10px 15px;
+  }
+  header .btn .icon {
+    font-size: 15px;
+  }
 }
 
 #beautifulfood {
