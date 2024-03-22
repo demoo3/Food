@@ -112,6 +112,44 @@ header .box, header .btn {
 #beautifulfood .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 991px) {
+  #beautifulfood .box {
+    text-align: center;
+  }
+  #beautifulfood .box h1 {
+    margin-right: 0;
+    padding: 0 60px;
+  }
+  #beautifulfood .box h5 {
+    margin-right: 0;
+    padding: 0 40px;
+  }
+  #beautifulfood .box .imgbox {
+    margin-left: 280px;
+  }
+  #beautifulfood .imgbox {
+    margin-top: 80px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #beautifulfood .box .imgbox {
+    margin-left: 190px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #beautifulfood .box h1 {
+    padding: 0px;
+    font-size: 60px;
+  }
+  #beautifulfood .box h5 {
+    font-size: 21px;
+    padding: 0px;
+  }
+  #beautifulfood .box .imgbox {
+    margin-left: 100px;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
