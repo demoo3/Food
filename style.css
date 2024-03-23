@@ -176,6 +176,38 @@ header .box, header .btn {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 991px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    margin-left: 150px;
+  }
+  #thehome .textbox h5 {
+    margin-right: 0;
+    padding: 0 95px;
+  }
+  #thehome .imgbox {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #thehome .textbox h1 {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #thehome .textbox h1 {
+    margin-left: 0px;
+    padding-right: 50px;
+  }
+  #thehome .textbox h5 {
+    padding: 0px;
+  }
+  #thehome .textbox .btn {
+    padding: 13px 55px;
+  }
+}
 
 #howitworks h1 {
   font-weight: 700;
