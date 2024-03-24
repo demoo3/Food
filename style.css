@@ -58,6 +58,9 @@ header .box, header .btn {
   }
 }
 @media screen and (max-width: 376px) {
+  header {
+    margin-right: 0;
+  }
   header .imgbox {
     width: 55px;
   }
@@ -231,7 +234,6 @@ header .box, header .btn {
   color: #676f8b;
   line-height: 1.3;
 }
-
 #ourmenu .textbox {
   width: 500px;
   text-align: center;
